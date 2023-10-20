@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  background-color: gray;
+  min-height: 72px;
+}
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .navbar .sag ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#chooseSect {
+  background-image: url(https://preview.colorlib.com/theme/sierra/img/home-slider/slider-bg-1.png.webp);
+  min-height: 100vh;
+}
+#chooseSect .choose {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#chooseSect .choose h1 {
+  font-size: 75px;
+  padding-right: 500px;
+  padding-top: 100px;
+}
+#chooseSect .choose h3 {
+  font-size: 25px;
+}
+#chooseSect .choose .btn-link {
+  padding-top: 20px;
+}
+#chooseSect .choose .btn-link a {
+  font-size: 25px;
+  background: linear-gradient(to right, #12fff7, #b3ffab);
+  box-shadow: 20px;
+  padding: 15px 25px;
+  border-radius: 22px;
+}
+#chooseSect .choose .btn-link a:hover {
+  background: linear-gradient(to right, #b3ffab, #12fff7);
+}/*# sourceMappingURL=main.css.map */

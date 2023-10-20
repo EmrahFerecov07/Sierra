@@ -1,0 +1,37 @@
+#chooseSect{
+    background-image: url(https://preview.colorlib.com/theme/sierra/img/home-slider/slider-bg-1.png.webp);
+    min-height: 100vh;
+    .choose{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        h1{
+           font-size: 75px; 
+           padding-right: 500px;
+           padding-top: 100px;
+        }
+        h3{
+            font-size: 25px;
+        }
+        .btn-link{
+            padding-top: 20px;
+            
+
+            a{
+                font-size: 25px;
+                background: linear-gradient(to right, #12fff7, #b3ffab); ;
+                box-shadow: 20px;
+                padding: 15px 25px;
+                border-radius: 22px;
+                &:hover{
+            
+                    
+                    background: linear-gradient(to right, #b3ffab, #12fff7);
+                    
+                }
+                
+            }
+        }
+    }
+}

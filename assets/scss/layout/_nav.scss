@@ -1,0 +1,17 @@
+nav{
+    background-color: gray;
+    min-height: 72px;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .sag{
+            ul{
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+                
+            }
+        }
+    }
+}
