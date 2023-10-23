@@ -60,4 +60,19 @@ nav .navbar .sag ul {
 }
 #chooseSect .choose .btn-link a:hover {
   background: linear-gradient(to right, #b3ffab, #12fff7);
+}
+
+#discoverSect .discover {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+#discoverSect .discover h1 {
+  font-size: 50px;
+}
+#discoverSect .discover h3 {
+  color: gray;
+}
+#discoverSect .common {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
